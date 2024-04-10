@@ -1,0 +1,84 @@
+body {
+ background-image: url(./source/Gambar11.png) ;
+ background-size: cover;
+ display: grid;
+ place-items: center;
+ background-repeat: repeat;
+ margin-top: 50px;
+ 
+}
+
+
+.card{
+    background-color: rgba(255, 255, 255, 0.2); /* Transparansi diatur melalui nilai alpha (0.5) */
+    backdrop-filter: blur(8px);
+    width: 50vh;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: 2s;
+ 
+}
+
+.card > img{
+    margin-top: 25px;
+     width: 15vh;
+     border-radius: 50%;
+
+}
+h1, h3{
+   
+        font-family: "Tilt Neon", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+          "XROT" 0,
+          "YROT" 0;
+     
+}
+
+
+h1{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.2rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background: linear-gradient(to top left, #66ff99 0%, #ffffff 100%);
+    border: none;
+    box-shadow: 5px 5px 8px;
+    transition: 2s;
+}
+button:active {
+    background: linear-gradient(to top left, #66ff99 0%, #ffffcc 100%);
+}
+button:hover{
+    background: linear-gradient(to top left, #66ff99 0%, #ffcc66 100%);
+}
+
+@media only screen and (max-width:767px) {
+    html{
+        font-size: 13px;
+    }
+
+button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+}

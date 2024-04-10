@@ -1,0 +1,36 @@
+body {
+    background-image: url(./source/Gambar11.png) ;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    background-repeat: repeat;
+    margin-top: 50px;
+    
+   }
+   
+   
+   .card{
+       background-color: rgba(255, 255, 255, 0.2); /* Transparansi diatur melalui nilai alpha (0.5) */
+       backdrop-filter: blur(8px);
+       width: 50vh;
+       height: 80vh;
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       transition: 2s;
+    
+   }
+
+
+   h1 {
+   margin-top:30px;
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "XROT" 0,
+      "YROT" 0;
+ 
+}
+
