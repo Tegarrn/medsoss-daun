@@ -10,10 +10,10 @@ body {
    
    
    .card{
-    background: linear-gradient(to bottom left, #003399 58%, #33ccff 100%);* Transparansi diatur melalui nilai alpha (0.5) */
+    background: linear-gradient(to bottom left, #003399 58%, #33ccff 100%);
        backdrop-filter: blur(8px);
        width: 50vh;
-       height: 80vh;
+       height: max-content;
        display: flex;
        align-items: center;
        flex-direction: column;
@@ -39,13 +39,14 @@ a > button {
 
 
 .produk  > a > button {
- padding: 5px 5px;
+ padding: 15px 15px;
+ max-width: 300px;
  
   background: linear-gradient(to bottom right, #003399 58%, #3399ff 100%);
   border: none;
   box-shadow: 5px 5px 8px;
   transition: 2s;
-  margin-top: 50px;
+  margin-top: 20px;
   border-radius: 5px;
    
 }
@@ -93,7 +94,7 @@ button{
   
 }
 .card{
-  height: 65dvh;
+  height: max-content;
   width: 40dvh;
 }
 }
