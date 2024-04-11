@@ -78,6 +78,7 @@ a > button {
 
 a> button:active {
   background: linear-gradient(to bottom, #00ff99 0%, #9900cc 100%);
+  color: black;
 }
 a > button:hover{
   background: linear-gradient(to top left, #66ff99 0%, #ffcc66 100%);
