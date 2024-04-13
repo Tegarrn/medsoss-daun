@@ -82,6 +82,7 @@ a> button:active {
 }
 a > button:hover{
   background: linear-gradient(to top left, #66ff99 0%, #ffcc66 100%);
+  
 }
 
 @media only screen and (max-width:767px) {
